@@ -1,0 +1,18 @@
+<h2>Recipe Details</h2> 
+
+<hr/>
+<div class="row" *ngIf="recipe">
+  <div class="col">
+    <label><b>Recipe Name: </b></label><br/> {{recipe.name}}
+  </div>
+  <div class="col">
+    <label><b>Recipe Description: </b></label><br/> {{recipe.description}}
+  </div>
+  <div class="col">
+    <label><b>Picture: </b></label><br/> <img [src]=recipe.image width="200" height="200"alt={{recipe.image}}>
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Recipe List</button><br>

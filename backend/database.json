@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "description": "lots of cheese and pepperoni",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Pizza_with_various_toppings.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cheeseburger",
+      "description": "Beef, cheese, lettuce, and tomato. a classic",
+      "image": "/assets/images/cheeseburger.jpg"
+    },
+    {
+      "name": "Pasta",
+      "description": "slimy slippery slurpable goodness",
+      "image": "https://dropline.net/wp-content/uploads/2015/01/DSC8062.jpg",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Cheeseburger",
+      "description": "Beef, cheese, lettuce, and tomato. a classic",
+      "image": "https://www.maxpixel.net/static/photo/1x/Bread-Burger-Beef-Bun-Cheese-Food-Fresh-Fatty-1239198.jpg"
+    }
+  ]
+}
